@@ -1,0 +1,60 @@
+https://www.youtube.com/watch?v=ZJJHm_bd9Zo
+
+farah@123
+
+
+https://www.youtube.com/watch?v=oVZtzZVe9Dg
+
+
+https://www.apache.org/dyn/closer.cgi?path=/kafka/3.6.1/kafka_2.13-3.6.1.tgz
+
+
+codeWithRajRanjan
+
+
+sudo systemctl status kafka
+
+https://www.devopshint.com/how-to-install-apache-kafka-on-ubuntu-22-04-lts/
+
+
+
+https://www.youtube.com/watch?v=ddrucr_aAzA&list=PLlameCF3cMEva65psDFX1y_gN2Tmh704t
+
+
+https://www.youtube.com/watch?v=0iB5IPoTDts
+
+
+https://www.youtube.com/watch?v=ei6fK9StzMM
+
+
+https://www.youtube.com/watch?v=q19m3hWAbnA
+
+
+https://www.youtube.com/watch?v=ZJJHm_bd9Zo
+
+https://github.com/obaraelijah/django-kafka-microservice
+
+
+https://www.youtube.com/watch?v=F6PUQ3k6zmg
+
+
+
+Final 
+bin/kafka-console-producer.sh --topic DevopsHint --bootstrap-server localhost:9092
+
+
+bin/kafka-console-consumer.sh --topic DevopsHint --bootstrap-server localhost:9092  --from-beginning
+
+
+bin/kafka-topics.sh  --bootstrap-server localhost:9092 --describe --topic DevopsHint
+
+#### Zookeeper Path
+
+/etc/zookeeper/conf_example/zoo.cfg
+
+#### kafka path
+
+/opt/kafka
+
+
+https://www.youtube.com/watch?v=l6Ta75ZSXi4&list=PLxv3SnR5bZE82Cv4wozg2uZvaOlDEbO67

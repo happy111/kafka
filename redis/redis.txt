@@ -1,0 +1,83 @@
+Redis is an open source (BSD licensed), in memory data structure store used as a database, cache , message broker and streaming engine.
+
+Writen c
+
+sudo apt update
+ sudo apt install redis
+sudo statemctl status redis
+enable redis
+start redis
+stop redis
+restart redis
+sudo systemctl restart redis-server
+sudo systemctl restart redis.service
+redis-cli --version
+
+sudo snap install redis
+
+What is redis-server
+
+Redis-server is ther redis server process or daemon that runs in the background and listens for client
+connections. it is the main component of redis, responsible for storing and managing data in memory
+
+
+
+
+
+redis-cli
+
+PING
+
+keys *
+
+set key umesh
+
+get key
+
+set name dd
+
+get key
+
+get name
+
+del key
+
+get key
+
+get name
+
+clear
+exists name
+
+exists roll
+
+set roll 111
+
+exists roll
+
+set student:1 umesh
+
+get student:1
+
+keys *
+
+https://www.youtube.com/watch?v=i8Mn5Kyvh2Y&list=PLbGui_ZYuhijTJDBVBBqvri76uUNfsrCc
+
+
+https://www.youtube.com/watch?v=i8Mn5Kyvh2Y&list=PLbGui_ZYuhijTJDBVBBqvri76uUNfsrCc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

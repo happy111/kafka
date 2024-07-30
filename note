@@ -1,0 +1,46 @@
+
+Topic is the logical partition of message.
+
+
+queque : one producer and one consumer  ex rabbitmq
+
+pub / sub : one producer and one cousermer  ex channel , one channel and multiple subscriber
+
+
+
+kafka  supports both queque and pub/ sub
+
+Zookeeper : Manage kafka broker
+
+            Manage broker state
+
+
+Brokers :-
+Brokers are the core of a Kafka cluster and its connector to the outside world. A Kafka cluster is made up of one or more servers, called brokers. A broker is a container that holds several topics with their multiple partitions. Each broker has a certain number of topic partitions.
+
+
+Topics  : -
+A topic consists of multiple partitions distributed across brokers. A topic is a category that records data and publishes messages. Consumers can read the data written on them by subscribing to it.
+
+
+kafka port : 9092
+zookeeper 2182
+
+
+path : /opt/kafka
+
+bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic DevopsHint
+
+bin/kafka-topics.sh --list --bootstrap-server localhost:9092
+bin/kafka-topics.sh
+
+
+bin/kafka-console-producer.sh --topic DevopsHint --bootstrap-server localhost:9092
+This is my first event
+
+
+https://kafka.apache.org/quickstart
+
+https://www.youtube.com/watch?v=AgOmeANl3ls&list=PLinedj3B30sDZ17Fpe3xGUDRBkutaGyUp
+
+
